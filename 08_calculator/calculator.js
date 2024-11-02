@@ -19,12 +19,8 @@ const multiply = function (arrayNumber) {
   );
 };
 
-const power = function (number, powerNumber) {
-  let result = 1;
-  for (i = 0; i < powerNumber; i++) {
-    result *= number;
-  }
-  return result;
+const power = function (a, b) {
+  return Math.pow(a, b);
 };
 
 const factorial = function (number) {
